@@ -10,7 +10,7 @@ import { randomNormal } from "d3-random"
 import { useMemo, useRef } from "react"
 import { useFrame, useThree } from "@react-three/fiber"
 
-const NUM_INSTANCES = 180
+const NUM_INSTANCES = 250
 
 const temp = new THREE.Object3D()
 const colors = ["#97DFFC", "#FF7B9C", "#046E8F"]
